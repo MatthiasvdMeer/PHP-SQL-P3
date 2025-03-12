@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: teal;
+    padding: 15px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    background: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+nav a{
+    margin-right: 50px;
+}
+nav span{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-container img {
+    width: 100px;
+    border-radius: 50%;
+}
+header {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61c4da8eb1b30a201b9669f2/e2e0e62f-0064-4f86-b9d8-5a55cb7110ca/Korembi-January-2024.jpg?format=1000w);
+    height: 55vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.over-mij {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    height: auto;
+}
+.sidebar {
+    background: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-orientation: mixed;
+    font-size: 1.5em;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.projecten{
+    text-align: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.project{
+    font-size: 1.5em;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    background: teal;
+    padding: 20px;
+    border-radius: 10px;
+}
+.projects img {
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 5px;
+}
+.extra {
+    width: 100%;
+    background: teal;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+footer {
+    text-align: center;
+    background: teal;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
